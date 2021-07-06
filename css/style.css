@@ -1,0 +1,192 @@
+body {
+   /* color: #ffffff; */
+   font-size: 15px;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   font-weight: 400;
+}
+
+p {
+   line-height: 1.6em;
+}
+
+.container {
+   width: 1170px;
+   margin: 0 auto;
+}
+
+.header {
+   background-image: linear-gradient(to top, #4ebefe, #378fd9);
+   padding-top: 100px;
+   color: #fff;
+   padding-bottom: 75px;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.offer {
+   margin-top: 166px;
+   width: 485px;
+}
+
+.title {
+   font-size: 35px;
+}
+
+.title span {
+   font-size: 56px;
+}
+
+.intro {
+   margin-top: 40px;
+   margin-bottom: 37px;
+   width: 390px;
+   letter-spacing: 0.32px;
+   font-size: 16px;
+}
+
+.btn {
+   text-decoration: none;
+   background: #ffd429;
+   font-family: 'Montserrat', sans-serif;
+   color: #2e2a1b;
+   display: block;
+   width: 222px;
+   padding: 19px 0;
+   padding-left: 25px;
+   transition: all 0.5s ease;
+}
+
+.btn:hover {
+   background: #dfbb2b;
+}
+
+.desktop {
+   margin-top: 10px;
+}
+
+.learn {
+   padding-top: 108px;
+   padding-bottom: 120px;
+}
+
+.animated {
+   opacity: 0;
+}
+.section-title {
+   font-size: 30px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.skills {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+}
+
+.skill {
+   width: 300px;
+   text-align: center;
+   background: url('../img/icon1.jpg') no-repeat center top;
+   padding-top: 100px;
+}
+
+.skill-title {
+   font-size: 19px;
+   font-weight: bold;
+}
+
+
+.skill-text {
+   margin-top: 7px;
+}
+
+.skill-work {
+      background: url('../img/icon2.jpg') no-repeat center top;
+   
+}
+
+.skill-worth {
+      background: url('../img/icon3.jpg') no-repeat center top;
+}
+
+.mail {
+   padding: 105px 0;
+   background: #ecf3f8;
+
+}
+
+form {
+   padding-top: 76px;
+   margin: 0 auto;
+   width: 335px;
+}
+
+.input {
+   display: block;
+    width: 343px;
+    height: 48px;
+    padding-left: 24px;
+    border-radius: 3px;
+    border: solid 1px #bbbbbb;
+    background-color: #ffffff;
+    opacity: 0.55;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+button {
+   width: 343px;
+   height: 56px;
+   background-color: #ffd429;
+   text-align: left;
+   padding-left: 87px;
+   transition: all 0.5s ease;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   background: #dfbb2b;
+   color: #fff;
+}
+
+.footer {
+   padding: 44px 0;
+   background-color: #164d7a;
+   text-align: center;
+}
+
+.credits {
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   font-size: 14px;
+}
